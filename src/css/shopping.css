@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100vw;
+}
+body {
+  background-image: url(../images/picture1/wrap_bg.png);
+  background-size: 100%;
+}
+header {
+  margin: 0 auto;
+  width: 100vw;
+  height: 35px;
+  background-color: #f9f9f9;
+  overflow: hidden;
+}
+header header {
+  width: 90vw;
+  height: 35px;
+  margin: 0 auto;
+}
+header header > div:first-child {
+  width: 11px;
+  height: 15px;
+  margin-top: 10px;
+  background-image: url(../images/sprite/icon.png);
+  background-position: 0 0;
+  float: left;
+}
+header header > div:first-child .iconfont {
+  font-size: 14px;
+}
+header header > ul:nth-child(2) {
+  margin: 10px 2px;
+  float: left;
+}
+header header > ul:nth-child(2) li {
+  list-style: none;
+  float: left;
+  width: 60px;
+  height: 15px;
+  line-height: 15px;
+  font-size: 14px;
+  color: #666;
+}
+header header > ul:nth-child(2) li:first-child {
+  border-right: 1px solid #eae7ea;
+}
+header header > ul:nth-child(2) li:last-child {
+  padding-left: 0.9vw;
+}
+header header > div:nth-child(3) {
+  width: 80px;
+  height: 21px;
+  line-height: 21px;
+  border: 1px solid #eae7ea;
+  padding-left: 2px;
+  float: right;
+  margin: 8px 0;
+  font-size: 14px;
+  color: #666;
+  overflow: hidden;
+}
+header header > ul:nth-child(4) {
+  margin: 10px 2px;
+  margin-right: 0.9vw;
+  float: right;
+}
+header header > ul:nth-child(4) li {
+  list-style: none;
+  float: left;
+  border-right: 1px solid #eae7ea;
+  padding: 0px 0.72vw;
+  font-size: 14px;
+  color: #666;
+}
+main {
+  display: block;
+  width: 90vw;
+  height: 126px;
+  background-color: white;
+  background-image: url(../images-shopping/background-images/bg-head.jpg);
+  padding: 0 5vw;
+  float: left;
+}
+main > div:first-child {
+  float: left;
+  width: 290px;
+  height: 55px;
+  margin-left: 1.8vw;
+  margin-top: 24px;
+  background-image: url(../images-shopping/jinglingtu/navico.png);
+  background-position: -669px -4px;
+  transform-origin: 0 0;
+}
+main > div:nth-child(2) {
+  float: right;
+  width: 161px;
+  height: 47px;
+  margin-right: 2vw;
+  margin-top: 18px;
+  background-image: url(../images-shopping/jinglingtu/navico.png);
+  background-position: -457px -12px;
+}
+main > div:nth-child(3) {
+  border: 1px solid #5a626a;
+  float: right;
+  margin-right: 5.45vw;
+  margin-top: 20px;
+  width: 35.9vw;
+  height: 45px;
+}
+main > div:nth-child(3) div {
+  width: 3.6vw;
+  height: 45px;
+  float: right;
+  background-color: #f74a4a;
+}
+main > div:nth-child(3) div span {
+  line-height: 45px;
+}
+main > div:nth-child(3) div .iconfont {
+  font-size: 25px;
+  color: white;
+}
+main > div:nth-child(3) input {
+  width: 32vw;
+  height: 41px;
+  float: left;
+  text-indent: 4px;
+}

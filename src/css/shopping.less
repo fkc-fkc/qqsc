@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100vw;
+}
+body{
+    background-image: url(../images/picture1/wrap_bg.png);
+    background-size: 100%;
+    // overflow: hidden;
+}
+// ----------------------------------------header---------------------------
+header {
+    margin: 0 auto;
+    width: 100vw;
+    height: 35px;
+    background-color:#f9f9f9;
+    overflow: hidden;
+    header {
+        width: 90vw;
+        height: 35px;
+        margin:0 auto;
+        &>div:first-child{
+            width:11px;
+            height:15px;
+            margin-top:10px;
+            background-image: url(../images/sprite/icon.png);
+            background-position: 0 0;
+            float: left;
+            .iconfont{
+                font-size:14px;
+            }
+        }
+        &>ul:nth-child(2){
+            margin: 10px 2px;
+            float: left;
+            li{
+                list-style: none;
+                float: left;
+                width: 60px;
+                height: 15px;
+                line-height: 15px;
+                font-size: 14px;
+                color:#666;
+                // transform:scale(0.8);  
+            }
+            li:first-child{
+                border-right:1px solid #eae7ea;
+            }
+            li:last-child{
+                padding-left:0.9vw;
+            }
+        }
+        &>div:nth-child(3){
+            width: 80px;
+            height:21px;
+            line-height: 21px;
+            border: 1px solid #eae7ea;
+            padding-left:2px;
+            float:right;
+            margin: 8px 0;
+            font-size:14px;
+            // transform:scale(0.8);
+            color:#666;
+            overflow: hidden;
+        }
+        &>ul:nth-child(4){
+            // margin: 2px 0px;
+            // height: 21px;
+            margin: 10px 2px;
+            margin-right:0.9vw;
+            float: right;
+            li{
+                // height: 21px;
+                list-style: none;
+                float: left;
+                border-right:1px solid #eae7ea;
+                padding: 0px 0.72vw; 
+                font-size:14px;
+                color:#666;
+                // stransform:scale(0.8);
+            }
+        }
+    }
+}
+// -------------------------------------------------main--------------------------
+main{
+    display: block;
+    width:90vw;
+    height:126px;
+    background-color:white;
+    background-image: url(../images-shopping/background-images/bg-head.jpg);
+    padding:0 5vw;
+    float: left;
+    // overflow: hidden;
+    &>div:first-child{
+        float:left;
+        width:290px;
+        height:55px;
+        margin-left:1.8vw;
+        margin-top:24px;
+        background-image: url(../images-shopping/jinglingtu/navico.png);
+        background-position: -669px -4px;
+        transform-origin: 0 0;
+        // transform: scale(1.2);
+    }
+    &>div:nth-child(2){
+        float:right;
+        width:161px;
+        height:47px;
+        margin-right:2vw;
+        margin-top:18px;
+        background-image: url(../images-shopping/jinglingtu/navico.png);
+        background-position: -457px -12px;
+        // transform: scale(1.2);
+    }
+    &>div:nth-child(3){
+        border:1px solid #5a626a;
+        float: right;
+        margin-right:5.45vw;
+        margin-top:20px;
+        width: 35.9vw;
+        height: 45px;
+        div{
+            width:3.6vw;
+            height:45px;
+            float: right;
+            background-color: #f74a4a;
+            span{
+                // float:left;
+                // padding-left:0.9vw;
+                line-height: 45px;
+                // vertical-align: middle;
+            }
+            .iconfont{
+                font-size:25px;
+                color:white;
+                // float: left;
+            }
+        }
+        input{
+            width:32vw;
+            height: 41px;
+            float:left;
+            text-indent: 4px;
+        }
+    }
+}
+   
