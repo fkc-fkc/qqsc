@@ -6,6 +6,13 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "8361799",
+      "name": "日历",
+      "font_class": "rili",
+      "unicode": "e6c5",
+      "unicode_decimal": 59077
+    },
+    {
       "icon_id": "258625",
       "name": "qq",
       "font_class": "tubiao215",

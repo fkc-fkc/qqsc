@@ -132,16 +132,20 @@ main > div:nth-child(3) div {
   height: 35px;
   float: right;
   background-color: #f74a4a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 main > div:nth-child(3) div span {
-  padding-left: 0.9vw;
+  line-height: 35px;
+  padding: 0;
 }
 main > div:nth-child(3) div .iconfont {
   font-size: 25px;
   color: white;
 }
 main > div:nth-child(3) input {
-  width: 280px;
+  width: 29vw;
   height: 31px;
   float: right;
   text-indent: 4px;
@@ -412,39 +416,260 @@ article .lolPifu {
   width: 90vw;
   float: left;
 }
-article .lolPifu div:first-child {
+article .lolPifu .lolPifuLeft {
   float: left;
   width: 70vw;
   height: 240px;
+  background-color: white;
 }
-article .lolPifu div:first-child div {
+article .lolPifu .lolPifuLeft .lolPifuone {
   float: left;
   width: 23.33vw;
   height: 119.5px;
+  color: #3a3f4a;
 }
-article .lolPifu div:first-child div:first-child {
-  background-color: red;
+article .lolPifu .lolPifuLeft .lolPifuone div:first-child {
+  float: left;
+  width: 6vw;
+  height: 66px;
+  background-image: url(../images/LOL/top1.jpg);
+  background-size: 100% 100%;
+  margin-left: 2.27vw;
+  margin-top: 26px;
 }
-article .lolPifu div:first-child div:nth-child(2) {
-  background-color: orange;
+article .lolPifu .lolPifuLeft .lolPifuone div:last-child {
+  height: 119.5px;
+  float: left;
+  font-size: 12px;
+  margin-left: 0.8vw;
 }
-article .lolPifu div:first-child div:nth-child(3) {
-  background-color: yellow;
+article .lolPifu .lolPifuLeft .lolPifuone div:last-child p {
+  margin: 5px 0;
 }
-article .lolPifu div:first-child div:nth-child(4) {
-  background-color: green;
+article .lolPifu .lolPifuLeft .lolPifuone div:last-child p:first-child {
+  margin-top: 18px;
 }
-article .lolPifu div:first-child div:nth-child(5) {
-  background-color: cyan;
+article .lolPifu .lolPifuLeft .lolPifuone div:last-child p:nth-child(2) span {
+  color: #f74a4a;
+  font-weight: 600;
 }
-article .lolPifu div:first-child div:last-child {
-  background-color: purple;
+article .lolPifu .lolPifuLeft .lolPifuone div:last-child div:last-child {
+  width: 5.5vw;
+  height: 24px;
+  background-color: #f74a4a;
+  line-height: 24px;
+  color: white;
+  text-align: center;
+  margin-left: 0;
+}
+article .lolPifu .lolPifuLeft .lolPifutwo {
+  float: left;
+  width: 23.33vw;
+  height: 119.5px;
+  color: #3a3f4a;
+}
+article .lolPifu .lolPifuLeft .lolPifutwo div:first-child {
+  float: left;
+  width: 6vw;
+  height: 66px;
+  background-image: url(../images/LOL/top2.jpg);
+  background-size: 100% 100%;
+  margin-left: 2.27vw;
+  margin-top: 26px;
+}
+article .lolPifu .lolPifuLeft .lolPifutwo div:last-child {
+  height: 119.5px;
+  float: left;
+  font-size: 12px;
+  margin-left: 0.8vw;
+}
+article .lolPifu .lolPifuLeft .lolPifutwo div:last-child p {
+  margin: 5px 0;
+}
+article .lolPifu .lolPifuLeft .lolPifutwo div:last-child p:first-child {
+  margin-top: 18px;
+}
+article .lolPifu .lolPifuLeft .lolPifutwo div:last-child p:nth-child(2) span {
+  color: #f74a4a;
+  font-weight: 600;
+}
+article .lolPifu .lolPifuLeft .lolPifutwo div:last-child div:last-child {
+  width: 5.5vw;
+  height: 24px;
+  background-color: #f74a4a;
+  line-height: 24px;
+  color: white;
+  text-align: center;
+  margin-left: 0;
+}
+article .lolPifu .lolPifuLeft .lolPifuthree {
+  float: left;
+  width: 23.33vw;
+  height: 119.5px;
+  color: #3a3f4a;
+}
+article .lolPifu .lolPifuLeft .lolPifuthree div:first-child {
+  float: left;
+  width: 6vw;
+  height: 66px;
+  background-image: url(../images/LOL/top3.jpg);
+  background-size: 100% 100%;
+  margin-left: 2.27vw;
+  margin-top: 26px;
+}
+article .lolPifu .lolPifuLeft .lolPifuthree div:last-child {
+  height: 119.5px;
+  float: left;
+  font-size: 12px;
+  margin-left: 0.8vw;
+}
+article .lolPifu .lolPifuLeft .lolPifuthree div:last-child p {
+  margin: 5px 0;
+}
+article .lolPifu .lolPifuLeft .lolPifuthree div:last-child p:first-child {
+  margin-top: 18px;
+}
+article .lolPifu .lolPifuLeft .lolPifuthree div:last-child p:nth-child(2) span {
+  color: #f74a4a;
+  font-weight: 600;
+}
+article .lolPifu .lolPifuLeft .lolPifuthree div:last-child div:last-child {
+  width: 5.5vw;
+  height: 24px;
+  background-color: #f74a4a;
+  line-height: 24px;
+  color: white;
+  text-align: center;
+  margin-left: 0;
+}
+article .lolPifu .lolPifuLeft .lolPifufour {
+  float: left;
+  width: 23.33vw;
+  height: 119.5px;
+  color: #3a3f4a;
+}
+article .lolPifu .lolPifuLeft .lolPifufour div:first-child {
+  float: left;
+  width: 6vw;
+  height: 66px;
+  background-image: url(../images/LOL/top4.jpg);
+  background-size: 100% 100%;
+  margin-left: 2.27vw;
+  margin-top: 26px;
+}
+article .lolPifu .lolPifuLeft .lolPifufour div:last-child {
+  height: 119.5px;
+  float: left;
+  font-size: 12px;
+  margin-left: 0.8vw;
+}
+article .lolPifu .lolPifuLeft .lolPifufour div:last-child p {
+  margin: 5px 0;
+}
+article .lolPifu .lolPifuLeft .lolPifufour div:last-child p:first-child {
+  margin-top: 18px;
+}
+article .lolPifu .lolPifuLeft .lolPifufour div:last-child p:nth-child(2) span {
+  color: #f74a4a;
+  font-weight: 600;
+}
+article .lolPifu .lolPifuLeft .lolPifufour div:last-child div:last-child {
+  width: 5.5vw;
+  height: 24px;
+  background-color: #f74a4a;
+  line-height: 24px;
+  color: white;
+  text-align: center;
+  margin-left: 0;
+}
+article .lolPifu .lolPifuLeft .lolPifufive {
+  float: left;
+  width: 23.33vw;
+  height: 119.5px;
+  color: #3a3f4a;
+}
+article .lolPifu .lolPifuLeft .lolPifufive div:first-child {
+  float: left;
+  width: 6vw;
+  height: 66px;
+  background-image: url(../images/LOL/top5.jpg);
+  background-size: 100% 100%;
+  margin-left: 2.27vw;
+  margin-top: 26px;
+}
+article .lolPifu .lolPifuLeft .lolPifufive div:last-child {
+  height: 119.5px;
+  float: left;
+  font-size: 12px;
+  margin-left: 0.8vw;
+}
+article .lolPifu .lolPifuLeft .lolPifufive div:last-child p {
+  margin: 5px 0;
+}
+article .lolPifu .lolPifuLeft .lolPifufive div:last-child p:first-child {
+  margin-top: 18px;
+}
+article .lolPifu .lolPifuLeft .lolPifufive div:last-child p:nth-child(2) span {
+  color: #f74a4a;
+  font-weight: 600;
+}
+article .lolPifu .lolPifuLeft .lolPifufive div:last-child div:last-child {
+  width: 5.5vw;
+  height: 24px;
+  background-color: #f74a4a;
+  line-height: 24px;
+  color: white;
+  text-align: center;
+  margin-left: 0;
+}
+article .lolPifu .lolPifuLeft .lolPifusix {
+  float: left;
+  width: 23.33vw;
+  height: 119.5px;
+  color: #3a3f4a;
+}
+article .lolPifu .lolPifuLeft .lolPifusix div:first-child {
+  float: left;
+  width: 6vw;
+  height: 66px;
+  background-image: url(../images/LOL/top6.jpg);
+  background-size: 100% 100%;
+  margin-left: 2.27vw;
+  margin-top: 26px;
+}
+article .lolPifu .lolPifuLeft .lolPifusix div:last-child {
+  height: 119.5px;
+  float: left;
+  font-size: 12px;
+  margin-left: 0.8vw;
+}
+article .lolPifu .lolPifuLeft .lolPifusix div:last-child p {
+  margin: 5px 0;
+}
+article .lolPifu .lolPifuLeft .lolPifusix div:last-child p:first-child {
+  margin-top: 18px;
+}
+article .lolPifu .lolPifuLeft .lolPifusix div:last-child p:nth-child(2) span {
+  color: #f74a4a;
+  font-weight: 600;
+}
+article .lolPifu .lolPifuLeft .lolPifusix div:last-child div:last-child {
+  width: 5.5vw;
+  height: 24px;
+  background-color: #f74a4a;
+  line-height: 24px;
+  color: white;
+  text-align: center;
+  margin-left: 0;
 }
 article .lolPifu .lolPifuRight {
   width: 19vw;
   height: 240px;
   float: right;
   background: blue;
+  position: relative;
+  background-image: url(../images/LOL/shouyue.jpeg);
+  background-size: 100% 100%;
 }
 article .title:nth-child(4) div:first-child span:last-child {
   font-size: 12px;
@@ -455,37 +680,96 @@ article .title:nth-child(4) div:first-child span:last-child {
 article .lolYingxiong {
   float: left;
 }
-article .lolYingxiong div:first-child {
-  width: 70vw;
+article .lolYingxiong .lolYingxiongLeft {
+  width: 90vw;
   height: 180px;
-  float: left;
+  display: flex;
+  justify-self: flex-start;
+  background-color: white;
 }
-article .lolYingxiong div:first-child .lolYingXiong {
-  float: left;
+article .lolYingxiong .lolYingxiongLeft .lolYingXiong {
   width: 13.99vw;
   height: 180px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap ;
+  align-content: flex-start;
+  align-items: center;
+  justify-content: space-around;
 }
-article .lolYingxiong div:first-child .lolYingxiong1 {
+article .lolYingxiong .lolYingxiongLeft .lolYingXiong div {
+  width: 6.82vw;
+  height: 70px;
   background-color: red;
+  margin-top: 32px;
 }
-article .lolYingxiong div:first-child .lolYingxiong2 {
-  background-color: orange;
+article .lolYingxiong .lolYingxiongLeft .lolYingXiong p {
+  font-size: 12px;
 }
-article .lolYingxiong div:first-child .lolYingxiong3 {
-  background-color: yellow;
+article .lolYingxiong .lolYingxiongLeft .lolYingXiong P:nth-child(2) {
+  margin-top: 5px;
+  font-weight: 600;
+  color: #3a3f4a;
+  text-align: center;
 }
-article .lolYingxiong div:first-child .lolYingxiong4 {
-  background-color: green;
+article .lolYingxiong .lolYingxiongLeft .lolYingXiong p:nth-child(3) {
+  color: #3a3f4a;
+  text-align: center;
 }
-article .lolYingxiong div:first-child .lolYingxiong5 {
-  background-color: cyan;
+article .lolYingxiong .lolYingxiongLeft .lolYingXiong p:last-child {
+  color: #f74a4a;
 }
-article .lolYingxiong .lolYingxiongRight {
+article .lolYingxiong .lolYingxiongLeft .lolYingXiong p:last-child span {
+  font-weight: 600;
+}
+article .lolYingxiong .lolYingxiongLeft .lolYingxiong1 div {
+  background-image: url(../images/shoumai/left1.jpg);
+  background-size: 100% 100%;
+}
+article .lolYingxiong .lolYingxiongLeft .lolYingxiong2 div {
+  background-image: url(../images/shoumai/left2.jpg);
+  background-size: 100% 100%;
+}
+article .lolYingxiong .lolYingxiongLeft .lolYingxiong3 div {
+  background-image: url(../images/shoumai/left3.jpg);
+  background-size: 100% 100%;
+}
+article .lolYingxiong .lolYingxiongLeft .lolYingxiong4 div {
+  background-image: url(../images/shoumai/left4.jpg);
+  background-size: 100% 100%;
+}
+article .lolYingxiong .lolYingxiongLeft .lolYingxiong5 div {
+  background-image: url(../images/shoumai/left5.jpg);
+  background-size: 100% 100%;
+}
+article .lolYingxiong .lolYingxiongLeft .lolYingxiongRight {
   width: 19vw;
   height: 180px;
-  background-color: purple;
-  float: right;
+  background-color: white;
   margin-left: 1vw;
+}
+article .lolYingxiong .lolYingxiongLeft .lolYingxiongRight div {
+  width: 14.55vw;
+  height: 70px;
+  margin: 0 auto;
+  margin-top: 29px;
+  background-color: #f74a4a;
+  line-height: 70px;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  border-bottom: 10px solid #e43333;
+}
+article .lolYingxiong .lolYingxiongLeft .lolYingxiongRight div .iconfont {
+  font-size: 24px;
+  margin-right: 10px;
+}
+article .lolYingxiong .lolYingxiongLeft .lolYingxiongRight p {
+  text-align: center;
+  font-size: 12px;
+  margin: 6px 0;
+  color: #3a3f4a;
 }
 article .title:nth-child(6) div:last-child p {
   float: right;
