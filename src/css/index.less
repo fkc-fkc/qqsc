@@ -81,6 +81,12 @@ header {
                 color:#666;
                 // stransform:scale(0.8);
             }
+            li:first-child{
+                a{
+                    text-decoration: none;
+                    color: #666;
+                }
+            }
         }
     }
 }
@@ -190,17 +196,10 @@ header {
     }
     &>li:first-child{
         width:15.96vw;
-        // background-color: red;
         .iconfont{
             font-size: 20px;
         }
     }
-    // li:nth-child(2){
-    //     background-color: orange;
-    // }
-    // li:nth-child(3){
-    //     background-color: yellow;
-    // }
     &>li:nth-child(4){
         position: relative;
         div{
@@ -213,17 +212,6 @@ header {
             background-image: url(../images/picture1/newtips.png);
         }
     }
-    // &>li:nth-child(4):after{
-    //     width: 20px;
-    //     height: 9px;
-    //     background-image: url(../images/picture1/newtips.png);
-    // }
-    // li:nth-child(5){
-    //     background-color: cyan;
-    // }
-    // li:nth-child(6){
-    //     background-color: blue;
-    // }
     &>li:last-child{
         float: right;
         width: 19.19vw;
@@ -249,6 +237,10 @@ header {
             .iconfont{
                 font-size: 20px;
                 padding-right:5px;
+            }
+            a{
+                text-decoration: none;
+                color: #fff;
             }
         }
         li:last-child{

@@ -77,6 +77,10 @@ header header > ul:nth-child(4) li {
   font-size: 14px;
   color: #666;
 }
+header header > ul:nth-child(4) li:first-child a {
+  text-decoration: none;
+  color: #666;
+}
 main {
   display: block;
   width: 90vw;
@@ -219,6 +223,10 @@ section nav > li:last-child div ul li:first-child {
 section nav > li:last-child div ul li:first-child .iconfont {
   font-size: 20px;
   padding-right: 5px;
+}
+section nav > li:last-child div ul li:first-child a {
+  text-decoration: none;
+  color: #fff;
 }
 section nav > li:last-child div ul li:last-child {
   float: right;
